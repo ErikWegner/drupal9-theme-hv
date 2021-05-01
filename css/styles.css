@@ -52,7 +52,7 @@ body {
 
 .body-column {
   max-width: 1080px;
-  margin: 10px auto;
+  margin: calc(10 * ((100vw - 1080px) / (1080))) auto;
   border: 1px #bbb solid;
   padding: 10px 30px;
   padding: 10px calc(30 * 100vw / 1080);
