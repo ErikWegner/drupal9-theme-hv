@@ -34,12 +34,16 @@ footer {
   //padding-top: 20px;
 }
 
-.site-name {
+.branding-2 {
   margin-left: 2vw;
   font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
   a {
     text-decoration: none;
   }
+}
+
+.site-slogan {
+  font-size: 90%;
 }
 
 #block-hv-branding {

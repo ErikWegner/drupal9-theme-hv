@@ -24,12 +24,16 @@ footer {
   margin-top: calc(6px + (14 - 6) * ((100vw - 320px) / (1080 - 320)));
 }
 
-.site-name {
+.branding-2 {
   margin-left: 2vw;
   font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
 }
-.site-name a {
+.branding-2 a {
   text-decoration: none;
+}
+
+.site-slogan {
+  font-size: 90%;
 }
 
 #block-hv-branding {
