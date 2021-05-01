@@ -1,0 +1,76 @@
+/* fira-sans-regular - latin */
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fira-sans-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fira-sans-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/fira-sans-v11-latin-regular.woff2") format("woff2"), url("../fonts/fira-sans-v11-latin-regular.woff") format("woff"), url("../fonts/fira-sans-v11-latin-regular.ttf") format("truetype"), url("../fonts/fira-sans-v11-latin-regular.svg#FiraSans") format("svg");
+  /* Legacy iOS */
+}
+body {
+  font-family: "Fira Sans", sans-serif, "google";
+}
+
+h1, h2, h3, a {
+  color: #1515bc;
+}
+
+main {
+  border-bottom: 5px #1515bcf0 solid;
+}
+
+footer {
+  margin-top: calc(6px + (14 - 6) * ((100vw - 320px) / (1080 - 320)));
+}
+
+.site-name {
+  margin-left: 2vw;
+  font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+.site-name a {
+  text-decoration: none;
+}
+
+#block-hv-branding {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo img {
+  height: calc(3*(16px + (28 - 16) * ((100vw - 320px) / (1600 - 320))));
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.body-column {
+  max-width: 1080px;
+  margin: 10px auto;
+  border: 1px #bbb solid;
+  padding: 10px 30px;
+  padding: 10px calc(30 * 100vw / 1080);
+  box-shadow: #cacaca 0 0 10px;
+  background-color: #fff;
+}
+
+#block-hv-main-menu ul.menu {
+  display: flex;
+  margin-left: 0;
+}
+#block-hv-main-menu ul.menu li.menu-item {
+  margin: 0 4px;
+}
+#block-hv-main-menu ul.menu li.menu-item a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+#block-hv-powered {
+  font-size: 90%;
+}
