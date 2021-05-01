@@ -7,6 +7,7 @@
   /* IE9 Compat Modes */
   src: local(""), url("../fonts/fira-sans-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/fira-sans-v11-latin-regular.woff2") format("woff2"), url("../fonts/fira-sans-v11-latin-regular.woff") format("woff"), url("../fonts/fira-sans-v11-latin-regular.ttf") format("truetype"), url("../fonts/fira-sans-v11-latin-regular.svg#FiraSans") format("svg");
   /* Legacy iOS */
+  font-display: swap;
 }
 body {
   font-family: "Fira Sans", sans-serif, "google";
