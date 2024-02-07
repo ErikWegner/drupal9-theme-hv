@@ -1,8 +1,8 @@
 name: Helfervereinigung Bernburg
 type: theme
 description: 'Das Design für die Webseite thw-bernburg.de'
-core_version_requirement: ^8 || ^9
-base theme: classy
+core_version_requirement: ^9 || ^10
+base theme: stable9
 logo: logo.png
 libraries:
   - hv/global-styling
